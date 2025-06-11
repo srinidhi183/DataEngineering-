@@ -1,4 +1,6 @@
 """Recognize image file formats based on their first few bytes."""
+import sys
+sys.modules['imghdr'] = __import__('imghdr')
 
 from os import PathLike
 import warnings
