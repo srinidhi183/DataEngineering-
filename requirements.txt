@@ -3,5 +3,5 @@ google-cloud-bigquery
 streamlit-autorefresh
 protobuf==3.20.3
 streamlit==1.22.0
-imghdr
+
 
